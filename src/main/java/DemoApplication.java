@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "DevOps CI/CD Pipeline Deployed Successfully - Version 1.0";
+        return "DevOps CI/CD Pipeline Deployed Successfully - Version 2.0 (Automated Rolling Update)";
     }
 
     public static void main(String[] args) {
